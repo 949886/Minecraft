@@ -1236,6 +1236,27 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 82996325303998144, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: afb098ee0befb0c4197cc69cc665bbd9, type: 3}
+    - target: {fileID: 82996325303998144, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 1d5d9cebddd53a547965a2a9f5617a05,
+        type: 2}
+    - target: {fileID: 82996325303998144, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82996325303998144, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114096876846524998, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
       propertyPath: digEffect

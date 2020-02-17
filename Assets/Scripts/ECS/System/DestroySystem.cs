@@ -157,10 +157,7 @@ namespace Minecraft
                 float sqrLen = offset.sqrMagnitude;
                 if (sqrLen == 0)
                 {
-                    DispatchQueue.Main.Async(delegate
-                    {
-                        Debug.Log("Deleted Block.");
-                    });
+                    Debug.Log("Deleted Block.");
                     CommandBuffer.DestroyEntity(index, entity);
                 }
             }
